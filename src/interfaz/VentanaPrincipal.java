@@ -21,10 +21,8 @@ import javax.swing.table.DefaultTableModel;
 import modelo.GestorUsuarios;
 import modelo.Usuario;
 
-/**
- * Ventana principal con listado de usuarios registrados.
- * HERENCIA: extiende VentanaBase.
- */
+// Ventana principal con listado de usuarios registrados.
+
 public class VentanaPrincipal extends VentanaBase {
 
     private final Usuario usuarioActual;

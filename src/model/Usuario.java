@@ -1,5 +1,3 @@
-package src.model;
-
 public class Usuario extends Persona {
 
     private String usuario;

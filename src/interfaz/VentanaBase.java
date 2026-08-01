@@ -12,10 +12,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-/**
- * HERENCIA: clase base abstracta para todas las ventanas de la aplicacion.
- * ABSTRACCION: define metodos comunes que las subclases deben implementar.
- */
+// Clase base para todas las ventanas de la aplicacion, proporcionando estilos y metodos comunes.
 public abstract class VentanaBase extends JFrame {
 
     protected static final Font FUENTE_TITULO = new Font("Segoe UI", Font.BOLD, 18);

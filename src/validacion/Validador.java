@@ -1,9 +1,5 @@
 package validacion;
 
-/**
- * ABSTRACCION: define el contrato para validar formularios.
- * POLIMORFISMO: cada implementacion valida de forma diferente.
- */
 public interface Validador {
 
     /**

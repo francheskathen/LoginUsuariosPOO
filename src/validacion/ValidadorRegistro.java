@@ -1,9 +1,7 @@
 package validacion;
 
-/**
- * Valida los campos del formulario de registro.
- * POLIMORFISMO: implementa Validador.
- */
+// Valida los campos del formulario de registro de nuevos usuarios.
+
 public class ValidadorRegistro implements Validador {
 
     private final String nombreUsuario;

@@ -22,10 +22,8 @@ import modelo.Usuario;
 import validacion.Validador;
 import validacion.ValidadorRegistro;
 
-/**
- * Ventana para editar los datos de un usuario existente.
- * HERENCIA: extiende VentanaBase.
- */
+//Ventana para editar los datos de un usuario existente.
+
 public class VentanaEditarUsuario extends VentanaBase {
 
     private final VentanaPrincipal ventanaPrincipal;

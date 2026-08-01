@@ -22,10 +22,8 @@ import modelo.Usuario;
 import validacion.Validador;
 import validacion.ValidadorRegistro;
 
-/**
- * Ventana de registro de nuevos usuarios.
- * HERENCIA: extiende VentanaBase.
- */
+//Ventana de registro de nuevos usuarios.
+
 public class VentanaRegistro extends VentanaBase {
 
     private JTextField campoNombreUsuario;

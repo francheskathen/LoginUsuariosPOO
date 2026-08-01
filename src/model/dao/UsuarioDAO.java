@@ -1,7 +1,6 @@
 package dao;
 
 import java.util.ArrayList;
-import model.Usuario;
 
 public class UsuarioDAO {
 
@@ -13,8 +12,9 @@ public class UsuarioDAO {
 
     }
 
-    public void agregarUsuario(Usuario usuario){
+    public void agregarUsuario(Usuario subarid){
 
+        dao.Usuario usuario = null;
         listaUsuarios.add(usuario);
 
     }

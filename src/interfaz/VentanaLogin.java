@@ -21,10 +21,8 @@ import modelo.Usuario;
 import validacion.Validador;
 import validacion.ValidadorLogin;
 
-/**
- * Ventana de inicio de sesion.
- * HERENCIA: extiende VentanaBase.
- */
+//Ventana de inicio de sesion para usuarios registrados.
+
 public class VentanaLogin extends VentanaBase {
 
     private JTextField campoUsuario;

@@ -3,9 +3,7 @@ import interfaz.VentanaLogin;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
-/**
- * Punto de entrada de la aplicacion Login de Usuarios.
- */
+// Punto de entrada de la aplicacion, inicia la ventana de login.
 public class Main {
 
     public static void main(String[] args) {

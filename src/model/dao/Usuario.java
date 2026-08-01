@@ -1,8 +1,6 @@
 package dao;
 
-/**
- * Usuario
- */
+// Clase que representa un usuario en el sistema.
 public class Usuario {
 
 }
