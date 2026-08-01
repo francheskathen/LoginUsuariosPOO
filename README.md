@@ -1,66 +1,68 @@
-# Login de Usuarios (Java)
+# Sistema de Login de Usuarios - Programación Orientada a Objetos
 
-Aplicacion de escritorio en Java (Swing) para registro, inicio de sesion y administracion de usuarios.
+## Descripción
 
-## Requisitos
+Este proyecto consiste en el desarrollo de un sistema de autenticación de usuarios utilizando Java y Programación Orientada a Objetos (POO).
 
-- Java JDK 8 o superior
-
-## Configuracion del editor
-
-Los archivos deben guardarse como **UTF-8 sin BOM**. En Cursor/VS Code ya esta configurado en `.vscode/settings.json`.
-
-Si usas otro editor, evita "UTF-8 with BOM" para no obtener el error `illegal character: '\ufeff'`.
-
-## Compilar y ejecutar
-
-```bash
-javac -encoding UTF-8 -d out src/modelo/*.java src/validacion/*.java src/interfaz/*.java src/Main.java
-java -cp out Main
-```
-
-En Windows PowerShell:
-
-```powershell
-javac -encoding UTF-8 -d out src/modelo/*.java src/validacion/*.java src/interfaz/*.java src/Main.java
-java -cp out Main
-```
+El sistema permite registrar usuarios, iniciar sesión y administrar la información de los usuarios registrados mediante una interfaz gráfica.
 
 ## Funcionalidades
 
-- Inicio de sesion con usuario y contrasena oculta
-- Registro con validacion de campos obligatorios
-- Listado de usuarios registrados
-- Actualizar y eliminar usuarios
-- Cerrar sesion y volver al login
+- Inicio de sesión.
+- Registro de nuevos usuarios.
+- Validación de campos obligatorios.
+- Validación de contraseña y confirmación.
+- Contraseña oculta mediante `JPasswordField`.
+- Listado de usuarios registrados.
+- Actualización de usuarios.
+- Eliminación de usuarios.
+- Cierre de sesión.
+- Persistencia de datos mediante archivos.
 
-## POO implementada
+## Tecnologías utilizadas
 
-| Concepto | Implementacion |
-|----------|----------------|
-| Encapsulamiento | `Usuario`, `GestorUsuarios` |
-| Abstraccion | `Validador`, `VentanaBase` |
-| Herencia | Ventanas que extienden `VentanaBase` |
-| Polimorfismo | `ValidadorLogin` y `ValidadorRegistro` |
+- Java
+- Java Swing
+- Visual Studio Code
+- Git
+- GitHub
 
-## Estructura
+## Conceptos de Programación Orientada a Objetos
+
+Este proyecto implementa los siguientes pilares de la POO:
+
+### Abstracción
+
+Se implementa mediante la clase abstracta `Persona`, la cual contiene los atributos comunes de todos los usuarios.
+
+### Encapsulamiento
+
+Todos los atributos son privados y se accede a ellos mediante métodos Getter y Setter.
+
+### Herencia
+
+La clase `Usuario` hereda de la clase `Persona`.
+
+### Polimorfismo
+
+Se utiliza mediante la sobrescritura del método `toString()` de la clase `Usuario`.
+
+## Estructura del proyecto
 
 ```
 src/
-├── Main.java
-├── modelo/
-│   ├── Usuario.java
-│   └── GestorUsuarios.java
-├── validacion/
-│   ├── Validador.java
-│   ├── ValidadorLogin.java
-│   └── ValidadorRegistro.java
-└── interfaz/
-    ├── VentanaBase.java
-    ├── VentanaLogin.java
-    ├── VentanaRegistro.java
-    ├── VentanaPrincipal.java
-    └── VentanaEditarUsuario.java
+│
+├── controller/
+├── dao/
+├── model/
+├── view/
+└── Main.java
 ```
 
-Los usuarios se guardan en `usuarios.dat`.
+## Autor
+
+Nombre: Francheska Then Ubiera 2025-2440
+
+Asignatura: Programación 1
+
+Año: 2026

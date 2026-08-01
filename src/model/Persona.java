@@ -1,4 +1,3 @@
-package model;
 import java.io.Serializable;
 
 public abstract class Persona implements Serializable {
