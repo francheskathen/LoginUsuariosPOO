@@ -63,6 +63,6 @@ src/
 
 Nombre: Francheska Then Ubiera 2025-2440
 
-Asignatura: Programación 1
+Asignatura: Programación 2
 
 Año: 2026
